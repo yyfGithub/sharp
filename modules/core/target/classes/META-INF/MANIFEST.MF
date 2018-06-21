@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sharp Module Core
+Implementation-Version: 4.0.4-SNAPSHOT
+Built-By: yyf
+Implementation-Vendor-Id: com.jeesite
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/sharp-parent
+ /sharp-module-core/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: JeeSite
+

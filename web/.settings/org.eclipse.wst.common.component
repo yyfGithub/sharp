@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="sharp-web">
+        <dependent-module archiveName="sharp-module-core-4.0.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sharp-module-core/sharp-module-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sharp-common-4.0.4-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sharp-common/sharp-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="component.exclusion.patterns"/>
+        <property name="java-output-path" value="/src/main/webapp/WEB-INF/classes"/>
+        <property name="context-root" value="sharp-web"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+  </wb-module>
+</project-modules>
